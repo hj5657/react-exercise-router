@@ -1,0 +1,18 @@
+.title {
+  height: 40px;
+  background-color: grey;
+}
+.linkHome,
+.linkPro,
+.linkAbout {
+  padding: 10px;
+  float: right;
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
+.selected {
+  padding: 10px;
+  float: right;
+  text-decoration: underline;
+  color: rgb(39, 38, 38);
+}
