@@ -5,6 +5,7 @@ import {
   Route,
   Switch,
   NavLink,
+  Redirect,
 } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
@@ -52,6 +53,8 @@ class App extends Component {
             <Route path="/products/1" component={Bicycle} />
             <Route path="/products/2" component={TV} />
             <Route path="/products/3" component={Pencil} />
+            <Redirect from="/goods" to="/products" />
+            <Route component={Home} />
           </Switch>
         </Router>
       </div>
