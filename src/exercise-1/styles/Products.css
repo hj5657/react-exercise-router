@@ -1,0 +1,9 @@
+.products {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.linkProducts {
+  text-decoration: none;
+  color: red;
+}

@@ -2,9 +2,7 @@
   height: 40px;
   background-color: grey;
 }
-.linkHome,
-.linkPro,
-.linkAbout {
+.normal {
   padding: 10px;
   float: right;
   text-decoration: none;
